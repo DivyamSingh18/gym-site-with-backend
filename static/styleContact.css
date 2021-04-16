@@ -1,0 +1,35 @@
+.container{
+    height: 75vh;
+}
+
+h1{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center ;
+}
+
+.myInput{
+    width: 70%;
+    padding:7px;
+    margin: 6px;
+   border: 2px solid darkblue;
+   border-radius: 97px;
+   outline: none;
+}
+
+.btn{
+    margin:20px;
+    padding: 10px 16px;
+    font-size: 18px;
+    background-color: darkblue;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}

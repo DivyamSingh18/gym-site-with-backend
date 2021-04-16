@@ -1,0 +1,59 @@
+extends base.pug
+
+block scripts 
+    script(src="../static/index.js") 
+
+
+block style 
+    style
+        include ../static/style.css 
+
+
+block content                                                            
+    //- nav#navbar
+    //-   ul 
+    //-     div#logo 
+    //-       img(src="../static/pics/logo.png")
+          
+    //-     li #[a(href='/') Home] 
+    //-     li #[a(href='/') Contact] 
+    //-     li #[a(href='/') Services]
+    //-     li #[a(href='/') About]
+ 
+    section#introSection 
+        div  Welcome to our Dance Academy
+        div.small  Eat Sleep Dance Repeat  
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+          h3 Dance perfection
+          div.card-box 
+            div.card-img 
+              img(src='../static/pics/2.png')
+            div.card-content
+              p This is the card content. Lorem ipsum dolor, sit amet consectetur adipisicing.  
+        div.card
+          h3 Expert Agents
+          div.card-box 
+            div.card-img 
+              img(src='../static/pics/1.png')
+            div.card-content
+              p This is the card content. Lorem ipsum dolor, sit amet consectetur adipisicing.   
+
+
+        div.card
+          h3 Full Course 
+          div.card-box 
+            div.card-img 
+              img(src='../static/pics/3.png')
+            div.card-content
+              p This is the card content. Lorem ipsum dolor, sit amet consectetur adipisicing. 
+
+    section#sponsorSection
+        h2 Our Sponsors 
+        div#sponsors 
+          img(src="../static/pics/micro.png" , alt="Sponsor img" class="sp-img")
+          img(src="../static/pics/hp.png" , alt="Sponsor img" class="sp-img")
+          img(src="../static/pics/apple.png" , alt="Sponsor img" class="sp-img")
+          img(src="../static/pics/skype.png" , alt="Sponsor img" class="sp-img")
